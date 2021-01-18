@@ -57,8 +57,6 @@ async def ban(context, member: discord.Member,*, reason = None):
 
 
 
-
-
 @client.event
 #predefined name
 async def on_ready():
@@ -75,8 +73,6 @@ async def on_ready():
         await general_channel.send('hello')
 
        
-
-
 
 
 @client.event
@@ -208,7 +204,7 @@ async def stop(ctx):
 
 
 # Run on server (Can regenerate token)
-# 
+
 client.run('Token ID')
 
 
