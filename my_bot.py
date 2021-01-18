@@ -74,9 +74,7 @@ async def on_ready():
 
         await general_channel.send('hello')
 
-        #df = pd.DataFrame({"A": ['Hello', 'Test']})
-        #df.to_csv('/Users/rayobelihomji/Discord Bot/output.csv')
-
+       
 
 
 
@@ -210,7 +208,8 @@ async def stop(ctx):
 
 
 # Run on server (Can regenerate token)
-client.run('Nzk2OTA2NDY5MjMxNTU4NzA0.X_eu_A.jRXTo3ty9KXCnqdpOD8mTUk17vs')
+# 
+client.run('Token ID')
 
 
 
